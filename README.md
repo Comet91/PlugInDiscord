@@ -16,6 +16,6 @@ To Run The Bot Easier:
 
 Code For Bat File:
 
-```node plugindiscord
-PAUSE```
+`node plugindiscord
+PAUSE`
 
