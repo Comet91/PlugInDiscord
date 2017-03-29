@@ -10,9 +10,12 @@ Installation:
 
 To Run The Bot Easier:
 - Create a .bat file and call it 'runbot'
-- Edit the file and paste the code:
-```node plugindiscord```
-```PAUSE```
+- Edit the file and paste the code below!
 - Now save and run the batch file.
 - Your bot should now run!
+
+Code For Bat File:
+
+```node plugindiscord
+PAUSE```
 
