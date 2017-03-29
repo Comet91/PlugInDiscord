@@ -46,10 +46,10 @@ function getMedia() {
 /* ----- COMMANDS ----- */
 
 client.on('message', message => {
-	if (message.content.startsWith(prefix + 'dj')) {
+	if (message.content.startsWith(prefix + 'plugdj')) {
     message.channel.sendMessage('**Current Song Playing:** ' + getMedia().title )
 	}
 });
 
 
-client.login('Mjk2MzA3MjkyMTIxNTk1OTA0.C7wVLg.ze5lK3r7-sqQ-CIn2eEeRbfa5Gw');
+client.login('Your Bots Token Here!');
