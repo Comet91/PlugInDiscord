@@ -9,13 +9,12 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}!`);
 });
 
-var message = 'msg'
-var prefix = "!"
-
 client.on('ready',() => {
-  client.user.setGame("on plug.dj");
 	console.log('I\'m Online\nI\'m Online');
 });
+
+var message = 'msg'
+var prefix = "!"
 
 bot.connect('YOUR ROOM!'); // The part after https://plug.dj
 
@@ -26,7 +25,7 @@ bot.on('roomJoin', function(room) {
 
 /* ----- FUNCTIONS N STUFF ----- */
 
-function getMedia() {
+function getMedia() {               //Grabs the current playing media
     const media = bot.getMedia()
     const obj = {
         title: `${media.author} - ${media.title}`,
@@ -47,9 +46,9 @@ function getMedia() {
 
 client.on('message', message => {
 	if (message.content.startsWith(prefix + 'plugdj')) {
-    message.channel.sendMessage('**Current Song Playing:** ' + getMedia().title )
+    message.channel.sendMessage('**Current Song Playing:** ' + getMedia().title ) //Sends a message containing the title of the current playing song
 	}
 });
 
 
-client.login('Your Bots Token Here!');
+client.login(''); //Your Bot Token
