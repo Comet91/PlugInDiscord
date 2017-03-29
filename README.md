@@ -6,5 +6,13 @@ Installation:
 - download the repository
 - run `npm install` inside the repository
 - edit the files to fit you needs.
-- run `node index`
+- run `node plugindiscord`
+
+To Run The Bot Easier:
+- Create a .bat file and call it 'runbot'
+- Edit the file and paste the code:
+`node plugindiscord`
+`PAUSE`
+- Now save and run the batch file.
+- Your bot should now run!
 
