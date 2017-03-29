@@ -15,7 +15,8 @@ To Run The Bot Easier:
 - Your bot should now run!
 
 Code For Bat File:
-
-`node plugindiscord
-PAUSE`
+```javascript
+node plugindiscord
+PAUSE
+```
 
