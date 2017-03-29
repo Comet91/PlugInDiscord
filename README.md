@@ -14,7 +14,7 @@ To Run The Bot Easier:
 - Now save and run the batch file.
 - Your bot should now run!
 
-Code For Bat File:
+Code For Batch File:
 ```javascript
 node plugindiscord
 PAUSE
