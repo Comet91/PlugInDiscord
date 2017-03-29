@@ -1,9 +1,9 @@
-const ytdl    = require('youtube-dl')
-const fs      = require('fs')
+const ytdl = require('youtube-dl')
+const fs = require('fs')
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const bot = new PlugAPI({ guest: true })
 var PlugAPI = require('plugapi');
+const bot = new PlugAPI({ guest: true })
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}!`);
@@ -45,9 +45,8 @@ function getMedia() {
 
 /* ----- COMMANDS ----- */
 
-
 client.on('message', message => {
-	if (message.content.startsWith(prefix + 'nowplaying')) {
+	if (message.content.startsWith(prefix + 'dj')) {
     message.channel.sendMessage('**Current Song Playing:** ' + getMedia().title )
 	}
 });
