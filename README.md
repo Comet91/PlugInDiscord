@@ -20,7 +20,7 @@ node plugindiscord
 PAUSE
 ```
 Credits:
-Lead Developer - YouCannotHide
-Developer - Graphite
-Developer - Inkzz
+- Lead Developer - YouCannotHide
+- Developer - Graphite
+- Developer - Inkzz
 
