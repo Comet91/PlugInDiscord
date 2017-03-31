@@ -19,4 +19,8 @@ Code For Batch File:
 node plugindiscord
 PAUSE
 ```
+Credits:
+Lead Developer - YouCannotHide
+Developer - Graphite
+Developer - Inkzz
 
