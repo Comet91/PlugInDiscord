@@ -19,6 +19,9 @@ Code For Batch File:
 node plugindiscord
 PAUSE
 ```
+Commands:
+- ```plugdj``` Displays the current playing song.
+
 Credits:
 - Developer - YouCannotHide
 
