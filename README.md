@@ -20,7 +20,7 @@ node plugindiscord
 PAUSE
 ```
 Commands:
-- ```plugdj``` Displays the current playing song.
+- ```!plugdj``` Displays the current playing song.
 
 Credits:
 - Developer - YouCannotHide
