@@ -23,7 +23,7 @@ bot.on('roomJoin', function(room) {
 });
 
 
-/* ----- FUNCTIONS N STUFF ----- */
+/* ----- FUNCTIONS ----- */
 
 function getMedia() {               //Grabs the current playing media
     const media = bot.getMedia()
