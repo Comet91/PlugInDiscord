@@ -22,6 +22,9 @@ PAUSE
 Commands:
 - ```!plugdj``` Displays the current playing song.
 
+Example Picture:
+![Screenshot](Screenshot_1.png)
+
 Credits:
 - Developer - YouCannotHide
 
