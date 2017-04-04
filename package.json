@@ -1,0 +1,18 @@
+{
+  "name": "plugindiscord",
+  "version": "0.1.1",
+  "description": "A Bot that shows the current song playing in a plug dj room on discord.",
+  "main": "plugindiscord.js",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "plugapi": "github:plugcubed/plugapi",
+    "youtube-dl": "^1.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "YouCannotHide",
+  "license": "ISC"
+}
