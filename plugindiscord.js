@@ -50,5 +50,12 @@ client.on('message', message => {
 	}
 });
 
+/* --- PING COMMAND --- */
+
+client.on('message', message => {
+	if(message.content.startsWith(prefix + 'ping')) {
+	message.channel.sendMessage('Pong!')
+	}
+});
 
 client.login(''); //Your Bot Token
