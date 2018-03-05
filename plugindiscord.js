@@ -23,7 +23,7 @@ bot.on('roomJoin', function(room) {
 });
 
 
-/* ----- FUNCTIONS ----- */
+/*/ FUNCTIONS /*/
 
 function getMedia() {               //Grabs the current playing media
     const media = bot.getMedia()
@@ -42,7 +42,7 @@ function getMedia() {               //Grabs the current playing media
     return obj
 }
 
-/* ----- COMMANDS ----- */
+/*/ COMMANDS /*/
 
 client.on('message', message => {
 	if (message.content.startsWith(prefix + 'plugdj')) {
@@ -50,7 +50,7 @@ client.on('message', message => {
 	}
 });
 
-/* --- PING COMMAND --- */
+/*/ PING COMMAND /*/
 
 client.on('message', message => {
 	if(message.content.startsWith(prefix + 'ping')) {
